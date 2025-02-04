@@ -1,0 +1,25 @@
+Top 10 Bigrams:
+Bigram,Frequency
+breast cancer,118
+cancer patients,73
+tumor cells,72
+purpose study,69
+lung cancer,61
+prostate cancer,52
+phase ii,47
+quality life,46
+solid tumors,43
+radiation therapy,43
+
+Top 10 Trigrams:
+Trigram,Frequency
+nonsmall cell lung,39
+cell lung cancer,39
+phase ii trial,26
+breast cancer patients,24
+stop growth tumor,23
+growth tumor cells,23
+different ways stop,22
+maximum tolerated dose,20
+drugs used chemotherapy,20
+lung cancer nsclc,18

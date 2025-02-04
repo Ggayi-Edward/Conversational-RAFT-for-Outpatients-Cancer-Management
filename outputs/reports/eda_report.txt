@@ -1,0 +1,37 @@
+Dataset Overview:
+      Trial ID                                              Title  ... Enrollment Summary_Length
+0  NCT06215027  The Effects of Dance for Breast Cancer Patient...  ...       30.0            261
+1  NCT01704027  Safety Study of Pelvic and Prostatic SIB-IMRT ...  ...       28.0            296
+2  NCT02471027  The Clinical Research of Neoadjuvant Chemother...  ...     1000.0            400
+3  NCT05354427  Retrospective Evaluation of Commercial Spacers...  ...      175.0            180
+4  NCT06020573  Evaluation of Safety and Performance of Intrao...  ...       24.0           1268
+
+[5 rows x 10 columns]
+
+Column Information:
+None
+
+Missing Values:
+Trial ID          0
+Title             0
+Condition         1
+Intervention     49
+Study Type        0
+Phase           220
+Summary           0
+Eligibility       1
+Enrollment       12
+dtype: int64
+
+Number of Duplicate Records: 0
+
+Text Length Statistics:
+       Summary_Length
+count        500.0000
+mean         573.3600
+std          538.9798
+min           60.0000
+25%          246.5000
+50%          394.0000
+75%          657.5000
+max         3864.0000

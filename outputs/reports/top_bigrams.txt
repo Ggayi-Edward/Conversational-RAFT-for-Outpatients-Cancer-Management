@@ -1,0 +1,11 @@
+Top 10 Bigrams:
+palliative care: 4
+prostate cancer: 3
+postkidney transplantation: 3
+kidney transplantation: 3
+lymphocele formation: 3
+patients aml: 3
+clinical trial: 2
+purpose study: 2
+neoadjuvant chemotherapy: 2
+cancer radical: 2
