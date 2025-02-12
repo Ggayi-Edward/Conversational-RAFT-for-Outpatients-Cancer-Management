@@ -7,7 +7,7 @@ from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer 
 from pathlib import Path
 
 
@@ -58,7 +58,6 @@ X_tsne = tsne.fit_transform(X_pca)
 # Visualization
 plt.figure(figsize=(10, 8))
 plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=y_kmeans, cmap='viridis', alpha=0.6)
-plt.title(f'KMeans Clustering - t-SNE Visualization ({n_clusters} Clusters)')
 plt.xlabel('t-SNE Component 1')
 plt.ylabel('t-SNE Component 2')
 plt.colorbar(label='Cluster')

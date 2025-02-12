@@ -56,7 +56,6 @@ X_tsne = tsne.fit_transform(X_pca)
 # Plot the t-SNE results
 plt.figure(figsize=(10, 8))
 plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=np.arange(len(X_tsne)), cmap="coolwarm", alpha=0.7, edgecolors="k")
-plt.title("t-SNE Visualization of PCA-Reduced Features", fontsize=14)
 plt.xlabel("t-SNE Dimension 1", fontsize=12)
 plt.ylabel("t-SNE Dimension 2", fontsize=12)
 plt.colorbar(label="Document Index")

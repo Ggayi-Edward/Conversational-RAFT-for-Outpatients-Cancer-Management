@@ -48,7 +48,6 @@ dominant_topics = np.argmax(topic_distribution, axis=1)
 # Plot the topic distribution
 plt.figure(figsize=(12, 6))
 sns.histplot(dominant_topics, bins=np.arange(n_topics + 1) - 0.5, kde=False, color="skyblue", edgecolor="black")
-plt.title("Topic Distribution Across Clinical Trial Summaries", fontsize=14, fontweight="bold")
 plt.xlabel("Topic", fontsize=12)
 plt.ylabel("Number of Documents", fontsize=12)
 plt.xticks(range(n_topics))

@@ -8,7 +8,7 @@ from pathlib import Path
 # Define file paths
 
 input_file = Path("../../data/corpus/cleaned_corpus.csv")
-output_plot = Path("../../outputs/plots/word_cloud.png")
+output_image = Path("../../outputs/plots/word_cloud.png")
 # Ensure the input file exists
 if not os.path.exists(input_file):
     raise FileNotFoundError(f"Error: Input file not found at {input_file}")
@@ -42,7 +42,6 @@ wordcloud = WordCloud(
 plt.figure(figsize=(12, 6))
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
-plt.title("🔹 Word Cloud of Clinical Trial Summaries", fontsize=14, fontweight="bold")
 plt.show()
 
 # Save the word cloud image

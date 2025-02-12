@@ -30,7 +30,7 @@ FIELDS = [
 # ✅ Define the CSV file path
 CSV_FILE = Path("../data/corpus/clinical_trials_corpus.csv")
 
-def fetch_trials(page_size=100, max_pages=5):
+def fetch_trials(page_size=100, max_pages=40):
     """Fetches clinical trials from ClinicalTrials.gov API and saves them to CSV."""
     os.makedirs(os.path.dirname(CSV_FILE), exist_ok=True) 
     file_exists = CSV_FILE.exists() # pathlib version

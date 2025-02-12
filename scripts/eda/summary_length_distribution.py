@@ -39,7 +39,6 @@ plt.hist(df["Summary_Length"], bins="auto", color="skyblue", edgecolor="black", 
 plt.axvline(mean_length, color="red", linestyle="dashed", linewidth=1, label=f"Mean: {mean_length:.1f}")
 plt.axvline(median_length, color="green", linestyle="dashed", linewidth=1, label=f"Median: {median_length:.1f}")
 
-plt.title("Distribution of Summary Lengths", fontsize=14)
 plt.xlabel("Summary Length (Number of Words)", fontsize=12)
 plt.ylabel("Frequency", fontsize=12)
 plt.legend()
